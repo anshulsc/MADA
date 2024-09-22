@@ -1,0 +1,10 @@
+qdrant-client
+transformers
+sentence-transformers
+llama-index
+dspy-ai
+torch
+numpy
+unstructured
+python-dotenv
+llama-index-embeddings-huggingface

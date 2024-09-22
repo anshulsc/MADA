@@ -1,0 +1,45 @@
+2024-09-22 13:17:55,759 - DocumentProcessingApp - INFO - Starting the document processing application.
+2024-09-22 13:17:55,773 - DocumentProcessingApp - INFO - Connected to Qdrant at qdrant:6333
+2024-09-22 13:17:55,840 - DocumentProcessingApp - INFO - Created collection 'MADA' with vector size 384 and distance COSINE.
+2024-09-22 13:18:08,064 - DocumentProcessingApp - INFO - Initialized tokenizer and embedding model.
+2024-09-22 13:18:22,580 - DocumentProcessingApp - INFO - Initialized VectorStoreIndex with OpenAIEmbedding.
+2024-09-22 13:18:22,581 - DocumentProcessingApp - INFO - Loading documents from /app/docs/PHYSICSOFLLM.pdf
+2024-09-22 13:18:22,581 - DocumentProcessingApp - INFO - Loading documents from /app/docs/PHYSICSOFLLM.pdf
+2024-09-22 13:18:22,600 - DocumentProcessingApp - ERROR - Failed to load documents from /app/docs/PHYSICSOFLLM.pdf: failed to find libmagic.  Check your installation
+2024-09-22 13:18:22,600 - DocumentProcessingApp - ERROR - No documents found. Exiting.
+2024-09-22 13:19:42,370 - DocumentProcessingApp - INFO - Starting the document processing application.
+2024-09-22 13:19:42,384 - DocumentProcessingApp - INFO - Connected to Qdrant at qdrant:6333
+2024-09-22 13:19:42,388 - DocumentProcessingApp - INFO - Collection 'MADA' already exists.
+2024-09-22 13:20:15,188 - DocumentProcessingApp - INFO - Starting the document processing application.
+2024-09-22 13:20:15,202 - DocumentProcessingApp - INFO - Connected to Qdrant at qdrant:6333
+2024-09-22 13:20:15,225 - DocumentProcessingApp - INFO - Collection 'MADA' already exists.
+2024-09-22 13:20:27,521 - DocumentProcessingApp - INFO - Initialized tokenizer and embedding model.
+2024-09-22 13:20:42,509 - DocumentProcessingApp - INFO - Initialized VectorStoreIndex with OpenAIEmbedding.
+2024-09-22 13:20:42,509 - DocumentProcessingApp - INFO - Loading documents from docs/PHYSICSOFLLM.pdf
+2024-09-22 13:20:42,509 - DocumentProcessingApp - INFO - Loading documents from docs/PHYSICSOFLLM.pdf
+2024-09-22 13:20:42,525 - DocumentProcessingApp - ERROR - Failed to load documents from docs/PHYSICSOFLLM.pdf: failed to find libmagic.  Check your installation
+2024-09-22 13:20:42,525 - DocumentProcessingApp - ERROR - No documents found. Exiting.
+2024-09-22 13:40:49,423 - DocumentProcessingApp - INFO - Starting the document processing application.
+2024-09-22 13:40:49,437 - DocumentProcessingApp - INFO - Connected to Qdrant at qdrant:6333
+2024-09-22 13:40:49,443 - DocumentProcessingApp - INFO - Collection 'MADA' already exists.
+2024-09-22 13:41:46,327 - DocumentProcessingApp - INFO - Starting the document processing application.
+2024-09-22 13:41:46,341 - DocumentProcessingApp - INFO - Connected to Qdrant at qdrant:6333
+2024-09-22 13:41:46,345 - DocumentProcessingApp - INFO - Collection 'MADA' already exists.
+2024-09-22 13:41:56,388 - DocumentProcessingApp - INFO - Initialized tokenizer and embedding model.
+2024-09-22 13:42:11,382 - DocumentProcessingApp - INFO - Initialized VectorStoreIndex with OpenAIEmbedding.
+2024-09-22 13:42:11,382 - DocumentProcessingApp - INFO - Loading documents from /Users/anshulsingh/lockedin/mada/docs/PHYSICSOFLLM.pdf
+2024-09-22 13:42:11,383 - DocumentProcessingApp - INFO - Loading documents from /Users/anshulsingh/lockedin/mada/docs/PHYSICSOFLLM.pdf
+2024-09-22 13:42:11,383 - DocumentProcessingApp - ERROR - Failed to load documents from /Users/anshulsingh/lockedin/mada/docs/PHYSICSOFLLM.pdf: no such file /Users/anshulsingh/lockedin/mada/docs/PHYSICSOFLLM.pdf
+2024-09-22 13:42:11,383 - DocumentProcessingApp - ERROR - No documents found. Exiting.
+2024-09-22 13:47:23,699 - DocumentProcessingApp - INFO - Starting the document processing application.
+2024-09-22 13:47:23,713 - DocumentProcessingApp - INFO - Connected to Qdrant at qdrant:6333
+2024-09-22 13:47:23,718 - DocumentProcessingApp - INFO - Collection 'MADA' already exists.
+2024-09-22 13:48:00,296 - DocumentProcessingApp - INFO - Starting the document processing application.
+2024-09-22 13:48:00,310 - DocumentProcessingApp - INFO - Connected to Qdrant at qdrant:6333
+2024-09-22 13:48:00,314 - DocumentProcessingApp - INFO - Collection 'MADA' already exists.
+2024-09-22 13:48:11,322 - DocumentProcessingApp - INFO - Initialized tokenizer and embedding model.
+2024-09-22 13:48:26,471 - DocumentProcessingApp - INFO - Initialized VectorStoreIndex with OpenAIEmbedding.
+2024-09-22 13:48:26,471 - DocumentProcessingApp - INFO - Loading documents from /Users/anshulsingh/lockedin/mada/docs/PHYSICSOFLLM.pdf
+2024-09-22 13:48:26,471 - DocumentProcessingApp - INFO - Loading documents from /Users/anshulsingh/lockedin/mada/docs/PHYSICSOFLLM.pdf
+2024-09-22 13:48:26,471 - DocumentProcessingApp - ERROR - Failed to load documents from /Users/anshulsingh/lockedin/mada/docs/PHYSICSOFLLM.pdf: no such file /Users/anshulsingh/lockedin/mada/docs/PHYSICSOFLLM.pdf
+2024-09-22 13:48:26,471 - DocumentProcessingApp - ERROR - No documents found. Exiting.
