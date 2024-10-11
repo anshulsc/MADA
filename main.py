@@ -8,10 +8,6 @@ from config.config import (
     OPENAI_API_KEY,
     EMBEDDING_MODEL_NAME,
     OPENAI_MODEL,
-    QDRANT_HOST,
-    QDRANT_PORT,
-    VECTOR_SIZE,
-    VECTOR_DISTANCE
 )
 from utils.logger import logger
 from utils.document_loader import load_documents
@@ -100,7 +96,6 @@ def main():
     
         # Initialize Reranker and Optimizer
         reranker = RerankModule()
-        optimizer = RerankingOptimizer(reranker)
     
         # Initialize Query Planner
         query_planner = QueryPlanner()

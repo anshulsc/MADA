@@ -6,7 +6,6 @@ from llama_index.core.data_structs.data_structs import IndexDict
 from llama_index.core.schema import TextNode
 
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-from sentence_transformers import SentenceTransformer
 from config.config import (
     OPENAI_API_KEY,
     COLLECTION_NAME,
@@ -14,7 +13,7 @@ from config.config import (
     VECTOR_DISTANCE,
     QDRANT_HOST,
     QDRANT_PORT
-)
+) 
 from qdrant_client import QdrantClient, models
 from utils.logger import logger
 
@@ -64,8 +63,6 @@ def add_documents_to_collection(documents, qdrant_client, collection_name, vecto
         nodes = [TextNode(text=doc.text) for doc in documents]
         embedded_nodes = vector_store._get_node_with_embedding(nodes)
 
-
-  
         points = []
         for node in embedded_nodes:
             if hasattr(node, "embedding") and node.embedding is not None:
@@ -87,3 +84,4 @@ def add_documents_to_collection(documents, qdrant_client, collection_name, vecto
             logger.warning("No points to upsert into Qdrant.")
     except Exception as e:
         logger.error(f"Failed to add documents to collection '{collection_name}': {e}")
+ 

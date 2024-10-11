@@ -1,7 +1,5 @@
 # agents/document_agent.py
 import re
-import dspy
-from transformers import AutoTokenizer, AutoModel
 from dspy import Module, settings
 import torch
 import numpy as np

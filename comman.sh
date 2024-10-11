@@ -12,4 +12,8 @@ docker run --rm \
   -e VECTOR_SIZE=384 \
   -e VECTOR_DISTANCE=COSINE\
   document_processing_app \
-  python main.py --query "V-Probing" --docs_path "app/docs/PHYSICSOFLLM.pdf"
+  python main.py --query "V-Probing" --docs_path "docs/PHYSICSOFLLM.pdf"
+
+docker run -p 6333:6333 -p 6334:6334 \
+    -v $(pwd)/qdrant_storage:/qdrant/storage:z \
+    qdrant/qdrant

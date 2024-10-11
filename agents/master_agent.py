@@ -4,7 +4,7 @@ from query.query_planner import QueryPlanner
 from query.reranker import RerankModule
 from utils.logger import logger
 
-class MasterAgent(Module):
+class  MasterAgent(Module):
     def __init__(self, document_agents, reranker, query_planner):
         super().__init__()
         self.document_agents = document_agents
