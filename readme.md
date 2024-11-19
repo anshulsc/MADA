@@ -227,33 +227,10 @@ tail -f logs/app.log
 
 ---
 
-## 🤝 Contributing
 
-We welcome contributions! Follow these steps to get involved:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit changes:
-   ```bash
-   git commit -m "Add feature-name"
-   ```
-4. Push and create a pull request.
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).  
-
----
 
 ## 💡 Questions or Feedback?
 
 Feel free to [open an issue](https://github.com/your-org/mada/issues) or contact us for further assistance.
 
 ---
-
-This `README.md` is formatted with clear sections, badges, and modern styling. It is tailored to convey both technical depth and user-friendliness, meeting the standards of top-tier repositories. Let me know if you'd like further refinements or additions!
