@@ -11,16 +11,9 @@ F --> G[Final Answer]
 ```
 
 
-Here’s a polished, comprehensive, and visually appealing **GitHub-style README** for your **MADA (Memory Augmented Document Agent)** project. It incorporates depth, formatting, and clarity to align with popular repositories.
-
----
 
 # MADA: Memory Augmented Document Agent
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/your-org/mada/actions)  
-[![Docker Pulls](https://img.shields.io/docker/pulls/qdrant/qdrant)](https://hub.docker.com/r/qdrant/qdrant)  
-[![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)  
-[![License](https://img.shields.io/badge/license-MIT-yellowgreen.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
